@@ -1,2 +1,2 @@
-# C-codes
-Some C++ codes
+# AaDS labs codes
+Solves AaDS labs tasks
