@@ -25,7 +25,7 @@ void dfs(int v, int par = -1) {
             up[v] = min(up[v], tin[to.first]);
         }
         if (col[to.first] == 0) {
-            dfs(to.first, to.second);
+            dfs(to.first, v);
             up[v] = min(up[v], up[to.first]);
             if (up[to.first] >= tin[v] && par != -1) {
                 cvs.insert(v);
